@@ -5,5 +5,5 @@ apt-get install apache2 apache2-utils mysql-server php7.0 php7.0-mysql libapache
 
 service apache2 restart
 
-curl -sSf https://static.rust-lang.org/rustup.sh | sh
-cargo install ripgrep
+#curl -sSf https://static.rust-lang.org/rustup.sh | sh
+#cargo install ripgrep

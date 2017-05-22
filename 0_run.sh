@@ -4,3 +4,5 @@ sh ./3_install_adminer.sh
 sh ./4_remove_packages.sh
 sh ./5_others.sh
 sh ./6_clean.sh
+
+echo "NEED REBOOT :)"

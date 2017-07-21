@@ -11,3 +11,6 @@ service apache2 restart
 apt-get install vlc shutter chromium-browser meld
 
 apt-get install virtualbox filezilla
+
+# Menu principal : permet de gérer les lanceurs et leurs icones
+apt-get install alacarte

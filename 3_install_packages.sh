@@ -9,3 +9,5 @@ service apache2 restart
 #cargo install ripgrep
 
 apt-get install vlc shutter chromium-browser meld
+
+apt-get install virtualbox filezilla

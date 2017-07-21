@@ -12,6 +12,7 @@ cd /tmp
 git clone https://github.com/atm-ph/git_configuration.git gitc
 cp gitc/.bash_aliases ~/
 cp gitc/.gitconfig ~/
+sed -i -e 's/\s*delete-branch.*//g' ~/.gitconfig # Retait d'un raccourci un peu trop dangereux
 chown $SUDO_USER:$SUDO_USER ~/.bash_aliases
 chown $SUDO_USER:$SUDO_USER ~/.gitconfig
 rm -r gitc

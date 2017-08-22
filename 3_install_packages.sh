@@ -8,7 +8,7 @@ service apache2 restart
 #curl -sSf https://static.rust-lang.org/rustup.sh | sh
 #cargo install ripgrep
 
-apt-get install vlc shutter chromium-browser meld
+apt-get install vlc shutter chromium-browser meld zip gzip openssh-server
 
 apt-get install virtualbox filezilla
 

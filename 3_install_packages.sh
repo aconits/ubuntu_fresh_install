@@ -1,7 +1,7 @@
 apt-get update
 
 # Install Packages standard
-apt-get install apache2 apache2-utils mysql-server mysql-client php7.0 php7.0-mysql libapache2-mod-php7.0 git vim terminator php7.0-curl php7.0-gd php7.0-xml php-xdebug php7.0-zip htop net-tools
+apt-get install apache2 apache2-utils mysql-server mysql-client php7.2 php7.2-mysql libapache2-mod-php7.2 git vim terminator php7.2-curl php7.2-gd php7.2-xml php-xdebug php7.2-zip htop net-tools
 
 service apache2 restart
 

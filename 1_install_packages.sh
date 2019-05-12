@@ -2,6 +2,9 @@ apt update
 
 # Install Packages
 apt install net-tools gnome-tweak-tool iotop htop ntp git locate bash-completion vim bzip2 zip gzip terminator vlc chromium-browser meld virtualbox filezilla
+# ctrl+alt+t ouvrira Terminator correctement et pas en root @see https://bugs.launchpad.net/terminator/+bug/1447580
+gsettings set org.gnome.desktop.default-applications.terminal exec 'terminator'
+
 apt install apache2 libapache2-mod-php apache2-utils 
 apt install mariadb-client mariadb-server 
 apt install php php-mysql php-curl php-bz2 php-gd php-zip php-xml php-xdebug

@@ -35,7 +35,7 @@ service apache2 restart
 
 # alternative à shutter
 cd /tmp
-wget https://github.com/DamirPorobic/ksnip/releases/download/v1.5.0/ksnip-1.5.0.deb
-sudo dpkg -i ksnip-1.5.0.deb
+wget https://github.com/ksnip/ksnip/releases/download/v1.6.0/ksnip-1.6.0.deb
+sudo dpkg -i ksnip-1.6.0.deb
 sudo apt install -f
-rm ksnip-1.5.0.deb
+rm ksnip-1.6.0.deb

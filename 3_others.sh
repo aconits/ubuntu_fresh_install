@@ -9,7 +9,7 @@ update-alternatives --config editor
 
 echo "---- Init .bash_aliases et .gitconfig dans [~/] ----"
 cd /tmp
-git clone https://github.com/atm-ph/git_configuration.git gitc
+git clone https://github.com/aconits/git_configuration.git gitc
 cp gitc/.bash_aliases ~/
 cp gitc/.gitconfig ~/
 sed -i -e 's/\s*delete-branch.*//g' ~/.gitconfig # Retait d'un raccourci un peu trop dangereux
